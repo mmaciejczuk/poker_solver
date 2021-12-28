@@ -1,0 +1,28 @@
+{
+  "name": "poker2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "poker.js",    "scripts": {
+    "test": "jest"
+},
+"jest": {
+    "transform": {
+        "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+},
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+      "eslint-config-standard": "^16.0.3",
+      "esm": "^3.2.25"
+  },
+  "directories": {
+      "test": "tests"
+  },
+  "devDependencies": {
+      "@babel/preset-env": "^7.16.5",
+      "babel-jest": "^27.4.5",
+      "jest": "^27.4.5"
+  }
+}
