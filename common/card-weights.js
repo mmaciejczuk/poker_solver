@@ -12,6 +12,6 @@ export const cardWeights = {
     q: 11,
     k: 12,
     a: 13,
-}
+};
 
-export default cardWeights
+export default cardWeights;
